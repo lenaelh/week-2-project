@@ -1,0 +1,82 @@
+.container-button {
+    position: relative;
+    display: grid;
+    width: 500px;
+    height: 500px;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+img {
+    height: 20vh;
+    width: auto; 
+    cursor: pointer;
+    position: relative
+}
+
+.container-grandma {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.container-oven {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.container-factory {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.container.mine {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.container.bank {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.button-reset {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;  
+}
